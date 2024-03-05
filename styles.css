@@ -1,0 +1,96 @@
+h1{
+	color: rgb(0, 0, 0);
+	text-align: center;
+	font-family: headingfont;
+	font-size: 75px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+    overflow: hidden;
+}
+p{
+	color: rgb(0, 0, 0);
+	font-family: bodyfont;
+}
+li{
+    color: rgb(0, 0, 0);
+    font-family: bodyfont;
+
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px; 
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+h2{
+    color: rgb(0, 0, 0);
+    font-family: bodyheading;
+
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+} 
+section {
+    margin-bottom: 30px;
+    padding: 20px; /* Adds padding within the section */
+    border-radius: 8px; /* Adds a subtle curve to corners */
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.8), rgba(168, 168, 168, 0.6)); 
+}
+.titlesection{
+    background-image: url("logo.jpg");
+    background-size: cover;
+    padding: 150px;
+}
+@font-face {
+	font-family: headingfont;
+	src: url(HatschSans_PERSONAL_USE_ONLY.woff);
+  }
+	@font-face {
+		font-family: bodyfont;
+		src: url(ParagraphFont.woff);
+  }
+  @font-face {
+	font-family: semibody;
+	src: url(semibody.woff);
+}
+@font-face {
+	font-family: bodyheading;
+	src: url(BodyHeadingFont.woff);
+}
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Display the list items inline and add some padding */
+.navigation li {
+    display: inline;
+    padding: 0 10px;
+}
+
+/* Style the links */
+.navigation li a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}

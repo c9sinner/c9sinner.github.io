@@ -60,7 +60,7 @@ iframe {
     margin: 20px auto;
 } 
 .titlesection{
-    background-image: url("logo.jpg");
+    background-image: url("images/logo.jpg");
     background-size: cover;
     padding: 150px;
 }

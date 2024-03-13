@@ -154,5 +154,6 @@ a {
 .informationtab {
   text-align: center;
 }
-
-/* TEST CSS */
+.adminspacer {
+  height: 100vh;
+}
